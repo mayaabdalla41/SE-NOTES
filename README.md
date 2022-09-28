@@ -30,7 +30,7 @@ ex: n = 5,
 
  - Variables are implied 
  - Colons indictate code block coming
- 
+ ```
  Ex. 
     x = 5, 
     z = 5, 
@@ -38,13 +38,14 @@ ex: n = 5,
       print ("same")
     else: 
       print("not same")
-      
+   ```
    Code ends when python gets to the a line thats not indented 
 - Same rules when function 
 - Don't define variables 
 - Use "def" instead of "func" 
 - W3Schools --> resource for python and java language help 
 - () is where the argument goes 
+```
  Ex. 
     def myFunction (): 
       print('This is in a function')
@@ -52,15 +53,16 @@ ex: n = 5,
     # have to start with # for each comment 
     # 
 - Functions have a return key word, theres a return function where it bails out 
+```
 
 - Variable Example 
 - Mutliple variables to multiple values 
-
+```
   x,y = 4,5 (4 goes to x and 5 goes to y) 
     def myfunc (): 
       return 7,8,9
     a,b,c = myfunc()
-    
+ ```
     
 - dont know a and b until after function is run, because we haven't given it value yet   
 ```
