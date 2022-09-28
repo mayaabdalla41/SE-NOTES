@@ -84,7 +84,7 @@ def maxVal(a,b):
  
  
  - In java we write (logical operators in java are "&&" "!!" "!")             in python we write (logical operators are "and" "or" "not")
- if (a > b && c > b)                                                              if (a > b and c > b):
+ if (a > b && c > b)                                                             if (a > b and c > b):
  
  
  
