@@ -1,16 +1,19 @@
 # SOFTWARE ENGINEERING DS NOTES 
 ## Notes from 9/28/22
 Software Engineering DS NOTES 9/28/22
+
 -Markdown is text with code marked in, can mark what is code, yet making it separate from the word format 
-      * can make bullet points and insert pictures by certain markdown code 
+-can make bullet points and insert pictures by certain markdown code 
 -Python is a language, no complier, reads text out of file as code directly, interpreter so we can edit it and run it then it prints it out with return values 
-    *  Printer command works! 
-- Type 
+- Printer command works! 
+
 - Numbers, strings —> Python is more picky about type being wrong than Java 
 - 2 categories: 
-- —scalar: a value, an integer, float, decimals, scientific notation. Ex. 5 is an integer
-- — nonscaler: strings, lists, objects, HAVE INTERNAL STRUCTURE. Ex. 5.0 now is interpreted as a decimal 
+- scalar: a value, an integer, float, decimals, scientific notation.
+``` Ex. 5 is an integer
+- nonscaler: strings, lists, objects, HAVE INTERNAL STRUCTURE. Ex. 5.0 now is interpreted as a decimal 
 - Python more picky, so 5/2 it had to covert it to 5.0/2.0 = 2.5 
+```
 - Numbers with decimal are called a "float", all numbers in JS are floats but not in Python 
 - JS always a float means never have to do conversions 
 - Operators we use in JS are the same 
@@ -41,7 +44,7 @@ ex: n = 5,
     else: 
       print("not same")
    ```
-   Code ends when python gets to the a line thats not indented 
+Code ends when python gets to the a line thats not indented 
 - Same rules when function 
 - Don't define variables 
 - Use "def" instead of "func" 
@@ -66,7 +69,7 @@ ex: n = 5,
     a,b,c = myfunc()
  ```
     
-- dont know a and b until after function is run, because we haven't given it value yet   
+Dont know a and b until after function is run, because we haven't given it value yet   
 ```
 EXAMPLE: 
 def maxVal(a,b):
@@ -76,14 +79,8 @@ def maxVal(a,b):
       return b 
       
  print(maxVal(20,30)) ---> runs the f(a,b) with 20 and 30 then prints 30 after going through the function. Define and then call
- ```
- 
- - Have to define function before calling it, print is a built in function
- INSERT PICTURE HERE 
- 
- 
- 
- 
+ ```  
+e
  ```
  - In java we write (logical operators in java are "&&" "!!" "!")             in python we write (logical operators are "and" "or" "not")
  if (a > b && c > b)                                                             if (a > b and c > b):
