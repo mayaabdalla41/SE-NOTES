@@ -1,10 +1,10 @@
 # SOFTWARE ENGINEERING DS NOTES 
-##Notes from 9/28/22
+## Notes from 9/28/22
 Software Engineering DS NOTES 9/28/22
-- Markdown is text with code marked in, can mark what is code, yet making it separate from the word format 
-      ⋅⋅*can make bullet points and insert pictures by certain markdown code 
-- Python is a language, no complier, reads text out of file as code directly, interpreter so we can edit it and run it then it prints it out with return values 
-- Printer command works! 
+Markdown is text with code marked in, can mark what is code, yet making it separate from the word format 
+      -can make bullet points and insert pictures by certain markdown code 
+Python is a language, no complier, reads text out of file as code directly, interpreter so we can edit it and run it then it prints it out with return values 
+     Printer command works! 
 - Type 
 - Numbers, strings —> Python is more picky about type being wrong than Java 
 - 2 categories: 
@@ -19,17 +19,19 @@ Software Engineering DS NOTES 9/28/22
 - a // b division but ignore remainder 
 - a xx b --> a^b 
 - n = 5, no declarations are needed but also means all variables are declared locally and hard to do it globally 
+```
 ex: n = 5, 
       def func: 
       n= 5
       THESE TWO Ns ARE DIFFERENT BECAUSE HAVE TO ASSUME ALL IS LOCAL. 
 - No triple ===, n == 5 equality test 
 - Java has == and ===, == does the same thing === does in JAVA so python only uses == 
+```
 
 
 
- - Variables are implied 
- - Colons indictate code block coming
+ Variables are implied 
+ -Colons indictate code block coming
  ```
  Ex. 
     x = 5, 
