@@ -1,6 +1,5 @@
 # SOFTWARE ENGINEERING DS NOTES 
 ## Notes from 9/28/22
-Software Engineering DS NOTES 9/28/22
 
 - Markdown is text with code marked in, can mark what is code, yet making it separate from the word format 
 
@@ -15,6 +14,8 @@ Software Engineering DS NOTES 9/28/22
 - nonscaler: strings, lists, objects, HAVE INTERNAL STRUCTURE. Ex. 5.0 now is interpreted as a decimal 
 - Python more picky, so 5/2 it had to covert it to 5.0/2.0 = 2.5 
 ```
+
+
 - Numbers with decimal are called a "float", all numbers in JS are floats but not in Python 
 - JS always a float means never have to do conversions 
 - Operators we use in JS are the same 
@@ -33,9 +34,8 @@ ex: n = 5,
 ```
 
 
-
  Variables are implied 
- -Colons indictate code block coming
+ - Colons indictate code block coming
  ```
  Ex. 
     x = 5, 
@@ -69,6 +69,7 @@ Code ends when python gets to the a line thats not indented
       return 7,8,9
     a,b,c = myfunc()
  ```
+    
     
 Dont know a and b until after function is run, because we haven't given it value yet   
 ```
