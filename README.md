@@ -3,6 +3,7 @@
 Software Engineering DS NOTES 9/28/22
 
 -Markdown is text with code marked in, can mark what is code, yet making it separate from the word format 
+
 -can make bullet points and insert pictures by certain markdown code 
 -Python is a language, no complier, reads text out of file as code directly, interpreter so we can edit it and run it then it prints it out with return values 
 - Printer command works! 
@@ -80,7 +81,6 @@ def maxVal(a,b):
       
  print(maxVal(20,30)) ---> runs the f(a,b) with 20 and 30 then prints 30 after going through the function. Define and then call
  ```  
-e
  ```
  - In java we write (logical operators in java are "&&" "!!" "!")             in python we write (logical operators are "and" "or" "not")
  if (a > b && c > b)                                                             if (a > b and c > b):
