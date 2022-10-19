@@ -89,32 +89,34 @@ def maxVal(a,b):
  
  
 10/13/22 NOTES 
-py.game is the library we are using 
-3rd party of py.game on actions from the user it'll run --> pygame_gui is the third party game 
-gui is the graphical user interface (buttons) 
-pygame.init () must be run before pygame 
-background is set by surface elements in pygame (RGB colors)
-surface is how much of the background we want covered 
-fills --> images, colors 
-manager handles everything as easy as possible 
+-py.game is the library we are using 
+-3rd party of py.game on actions from the user it'll run --> pygame_gui is the third party game 
+-gui is the graphical user interface (buttons) 
+-pygame.init () must be run before pygame 
+-background is set by surface elements in pygame (RGB colors)
+-surface is how much of the background we want covered 
+-fills --> images, colors 
+-manager handles everything as easy as possible 
 --> create manager element, finds every element we use (280 different gui)
-constantly checking the clock tick
-1000th of a frame is good 
-To adjust anything on the screen we HAVE to use the blit function 
+-constantly checking the clock tick
+-1000th of a frame is good 
+-To adjust anything on the screen we HAVE to use the blit function 
 --> anytime we want to change anything on screen 
-Manager.draw.ui(screen) --> adds everything on the screen 
-Vector 2 math --> how pygame makes stuff move, uses friction, gravity, 
-Vector so everything is 2d
-Basic vector math in both dimensions 
-ENTIRELY based on the top left cornor and guis can be built on top of each other, 
-Everything you create is another layer 
-Three different axes -x (horizontal) y (vertical)
+-Manager.draw.ui(screen) --> adds everything on the screen 
+-Vector 2 math --> how pygame makes stuff move, uses friction, gravity, 
+-Vector so everything is 2d
+-Basic vector math in both dimensions 
+-ENTIRELY based on the top left cornor and guis can be built on top of each other, 
+-Everything you create is another layer 
+-Three different axes -x (horizontal) y (vertical)
 
 ```
 Everything is a pygame rectangle 
 ![]<img width="713" alt="Screen Shot 2022-10-19 at 3 18 06 PM" src="https://user-images.githubusercontent.com/97997997/196783968-b6c2afd1-3d1f-467b-a845-06c1706e1306.png"> 
 ```
 
-https://pygame-gui.readthedocs.io/en/v_060/layout_guide.html#horizontal-vertical-positioning
-Pygame is for vector math and moving effects 
-Quick start guide is where to find how to make a button 
+-https://pygame-gui.readthedocs.io/en/v_060/layout_guide.html#horizontal-vertical-positioning
+-Pygame is for vector math and moving effects 
+-Quick start guide is where to find how to make a button 
+
+- FOR HW TO SUBMIT GO TO COMMITS THEN HIT PULL WHEN DONE
