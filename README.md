@@ -124,3 +124,15 @@ Everything is a pygame rectangle
 - Quick start guide is where to find how to make a button 
 
 - FOR HW TO SUBMIT GO TO COMMITS THEN HIT PULL WHEN DONE
+
+
+10/26/2022 NOTES 
+- pull request is a request of the changes you made to the file you forked 
+- branches are all in main 
+- merge pull request will apply to upstream pull request 
+- review code before to the upstream so then the code is reviewed before going to the original project so then it can edit it and make sure its good before 
+- "open" means hey look at my data do you want it, the conversation is currenlty open 
+- diff --> shows what has changed, deleting and adding data to the file 
+- every change in GIT is an either adds or substracts 
+- "files changed" is the net result of all the commits 
+- rest of notes in shared doc
