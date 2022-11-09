@@ -136,3 +136,8 @@ Everything is a pygame rectangle
 - every change in GIT is an either adds or substracts 
 - "files changed" is the net result of all the commits 
 - rest of notes in shared doc
+
+
+
+11/9/2022 NOTES 
+-
